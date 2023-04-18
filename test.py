@@ -4,7 +4,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # Initialize variables
-start_url = 'https://en.wikipedia.org/wiki/Sumeria'
+start_url = 'https://en.wikipedia.org/wiki/Sumea'
 visited_urls = set()
 level = 0
 max_level = 2  # change this to limit the number of layers
