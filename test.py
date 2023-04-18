@@ -143,5 +143,5 @@ output_filename = 'concorde_map.png'
 if os.path.exists(output_filename):
     os.remove(output_filename)
 
-fig = generate_map('https://en.wikipedia.org/wiki/Concorde', max_depth=.5, node_size_multiplier=2, min_node_distance=20)
+fig = generate_map('https://en.wikipedia.org/wiki/Concorde', max_depth=2, node_size_multiplier=.5, min_node_distance=20)
 fig.savefig(output_filename, format='png', dpi=300, bbox_inches='tight')
